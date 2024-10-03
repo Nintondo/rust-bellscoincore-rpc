@@ -1,6 +1,6 @@
 [package]
 name = "bellscoincore-rpc"
-version = "0.17.1"
+version = "0.17.2"
 authors = [
     "Steven Roose <steven@stevenroose.org>",
     "Jean Pierre Dudey <jeandudey@hotmail.com>",
@@ -19,7 +19,7 @@ name = "bellscoincore_rpc"
 path = "src/lib.rs"
 
 [dependencies]
-bellscoincore-rpc-json = { version = "0.17.0", path = "../json" }
+bellscoincore-rpc-json = { version = "0.17.1", path = "../json" }
 
 log = "0.4.5"
 jsonrpc = "0.14.0"
