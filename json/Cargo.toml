@@ -1,0 +1,26 @@
+[package]
+name = "bellscoincore-rpc-json"
+version = "0.17.1"
+authors = [
+    "Steven Roose <steven@stevenroose.org>",
+    "Jean Pierre Dudey <jeandudey@hotmail.com>",
+    "Dawid Ciężarkiewicz <dpc@dpc.pw>",
+]
+license = "CC0-1.0"
+homepage = "https://github.com/nintondo/rust-bellscoincore-rpc/"
+repository = "https://github.com/nintondo/rust-bellscoincore-rpc/"
+description = "JSON-enabled type structs for bellscoincore-rpc crate."
+keywords = ["crypto", "bellscoin", "bellscoin-core", "rpc"]
+readme = "README.md"
+edition = "2018"
+
+[lib]
+name = "bellscoincore_rpc_json"
+path = "src/lib.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+bellscoin = { version = "0.30.5", features = ["serde", "rand-std"] }
+bitcoin-private = "0.1.0"

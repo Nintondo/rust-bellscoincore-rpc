@@ -1,0 +1,30 @@
+[package]
+name = "bellscoincore-rpc"
+version = "0.17.1"
+authors = [
+    "Steven Roose <steven@stevenroose.org>",
+    "Jean Pierre Dudey <jeandudey@hotmail.com>",
+    "Dawid Ciężarkiewicz <dpc@dpc.pw>",
+]
+license = "CC0-1.0"
+homepage = "https://github.com/nintondo/rust-bellscoincore-rpc/"
+repository = "https://github.com/nintondo/rust-bellscoincore-rpc/"
+description = "RPC client library for the Bellscoin Core JSON-RPC API."
+keywords = ["crypto", "bellscoin", "bellscoin-core", "rpc"]
+readme = "README.md"
+edition = "2018"
+
+[lib]
+name = "bellscoincore_rpc"
+path = "src/lib.rs"
+
+[dependencies]
+bellscoincore-rpc-json = { version = "0.17.0", path = "../json" }
+
+log = "0.4.5"
+jsonrpc = "0.14.0"
+
+# Used for deserialization of JSON.
+serde = "1"
+serde_json = "1"
+bitcoin-private = "0.1.0"
