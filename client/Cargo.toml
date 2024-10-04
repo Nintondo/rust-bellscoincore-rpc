@@ -1,6 +1,6 @@
 [package]
 name = "bellscoincore-rpc"
-version = "0.17.2"
+version = "0.17.3"
 authors = [
     "Steven Roose <steven@stevenroose.org>",
     "Jean Pierre Dudey <jeandudey@hotmail.com>",
