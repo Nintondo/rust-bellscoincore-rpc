@@ -1,5 +1,5 @@
 [package]
-name = "bitcoincore-rpc"
+name = "bellscoincore-rpc"
 version = "0.18.0"
 authors = [
     "Steven Roose <steven@stevenroose.org>",
@@ -7,19 +7,19 @@ authors = [
     "Dawid Ciężarkiewicz <dpc@dpc.pw>",
 ]
 license = "CC0-1.0"
-homepage = "https://github.com/rust-bitcoin/rust-bitcoincore-rpc/"
-repository = "https://github.com/rust-bitcoin/rust-bitcoincore-rpc/"
-description = "RPC client library for the Bitcoin Core JSON-RPC API."
-keywords = ["crypto", "bitcoin", "bitcoin-core", "rpc"]
+homepage = "https://github.com/Nintondo/rust-bellscoincore-rpc/"
+repository = "https://github.com/Nintondo/rust-bellscoincore-rpc/"
+description = "RPC client library for the Bellscoin Core JSON-RPC API."
+keywords = ["crypto", "bellscoin", "bellscoin-core", "rpc"]
 readme = "README.md"
 edition = "2018"
 
 [lib]
-name = "bitcoincore_rpc"
+name = "bellscoincore_rpc"
 path = "src/lib.rs"
 
 [dependencies]
-bitcoincore-rpc-json = { version = "0.18.0", path = "../json" }
+bellscoincore-rpc-json = { version = "0.18.0", path = "../json" }
 
 log = "0.4.5"
 jsonrpc = "0.14.0"
@@ -30,4 +30,3 @@ serde_json = "1"
 
 [dev-dependencies]
 tempfile = "3.3.0"
-

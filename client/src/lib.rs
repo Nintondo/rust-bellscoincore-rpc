@@ -8,12 +8,12 @@
 // If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 //
 
-//! # Rust Client for Bitcoin Core API
+//! # Rust Client for Bellscoin Core API
 //!
 //! This is a client library for the Bitcoin Core JSON-RPC API.
 //!
 
-#![crate_name = "bitcoincore_rpc"]
+#![crate_name = "bellscoincore_rpc"]
 #![crate_type = "rlib"]
 
 #[macro_use]
@@ -24,9 +24,9 @@ extern crate serde;
 
 pub extern crate jsonrpc;
 
-pub extern crate bitcoincore_rpc_json;
+pub extern crate bellscoincore_rpc_json;
 pub use crate::json::bitcoin;
-pub use bitcoincore_rpc_json as json;
+pub use bellscoincore_rpc_json as json;
 use json::bitcoin::consensus::{Decodable, ReadExt};
 use json::bitcoin::hex::HexToBytesIter;
 

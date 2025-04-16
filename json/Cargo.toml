@@ -7,8 +7,8 @@ authors = [
     "Dawid Ciężarkiewicz <dpc@dpc.pw>",
 ]
 license = "CC0-1.0"
-homepage = "https://github.com/rust-bitcoin/rust-bitcoincore-rpc/"
-repository = "https://github.com/rust-bitcoin/rust-bitcoincore-rpc/"
+homepage = "https://github.com/Nintondo/rust-bellscoincore-rpc/"
+repository = "https://github.com/Nintondo/rust-bellscoincore-rpc/"
 description = "JSON-enabled type structs for bitcoincore-rpc crate."
 keywords = ["crypto", "bellscoin", "bellscoin-core", "rpc"]
 readme = "README.md"

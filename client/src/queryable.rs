@@ -14,7 +14,7 @@ use serde_json;
 use crate::client::Result;
 use crate::client::RpcApi;
 
-/// A type that can be queried from Bitcoin Core.
+/// A type that can be queried from Bellscoin Core.
 pub trait Queryable<C: RpcApi>: Sized {
     /// Type of the ID used to query the item.
     type Id;
